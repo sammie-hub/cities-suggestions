@@ -8,3 +8,7 @@ Copy and Paste below link in the browser to view the result.
 
 https://citiessuggestions.herokuapp.com/suggestions?q=Lon&latitude=43.70011&longitude=-79.4163
 
+Output would be in JSON as shown in screenshot.
+
+![image](https://user-images.githubusercontent.com/61722596/103381423-b5892000-4ab9-11eb-9033-5003943af2ed.png)
+
