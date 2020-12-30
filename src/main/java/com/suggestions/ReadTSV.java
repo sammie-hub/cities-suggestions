@@ -30,9 +30,9 @@ public class ReadTSV {
 		BufferedReader TSVFile;
 		int count = 0;
 		try {
-			AmazonS3 s3 = new AmazonS3Client(new BasicAWSCredentials("AKIAJ5BEFZNEKZM3OTYA", "yLNXIChPkulo25Cvw1UGV8Z2rLf5/5NqrcS4K+QZ"));
+			AmazonS3 s3 = new AmazonS3Client(new BasicAWSCredentials("", ""));
 			S3Object s3object = s3.getObject(new GetObjectRequest(
-		            "heroku-chetan", "cities_canada-usa.tsv"));
+		            "heroku", "cities_canada-usa.tsv"));
 		    System.out.println(s3object.getObjectMetadata().getContentType());
 		    System.out.println(s3object.getObjectMetadata().getContentLength());
 
