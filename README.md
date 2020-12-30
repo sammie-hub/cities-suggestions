@@ -1,6 +1,6 @@
 # cities-suggestions
 
-Geographical Suggestions of Candian Cities according to their longitude and latitude.The 'q' parameter can be changed to view the nearby cities which are closely mached with 'q' parameter 
+Geographical Suggestions of Candian Cities according to their longitude and latitude.The data is fetched in tsv which is store in the AWS S3 bucket. The 'q' parameter can be changed to view the nearby cities which are closely mached with 'q' parameter 
 
 It is developed in Java Spring Boot and deployed on Heroku Cloud. 
 
